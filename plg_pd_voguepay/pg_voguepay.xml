@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Content - VoguePay PinDispenser Plugin</name>
+	<author>Ojosipe Ayomikun</author>
+	<creationDate>April 2016</creationDate>
+	<copyright>Copyright (C) 2016 - Ojosipe Ayomikun. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ojosipeayo@gmail.com</authorEmail>
+	<authorUrl>https://voguepay.com</authorUrl>
+	<version>1.6</version>
+	<description><![CDATA[ 
+	<h2>VoguePay Pin Dispenser Joomla Plugin</h2>
+			<p>Thank you for installing Joomla VoguePay Plugin. This module is a customizable plugin to enable VoguePay Pin Dispenser on your Joomla content.
+			A product use to sell dispensable pin product ,like scratch cards ,and  downloadable product links , e.g for e-books.
+			
+			The following features are available: <ul>
+			
+				<li>Before using this module, it is neccessary you have already created a pin product on <a href="https://voguepay.com/merchant_product" target="_blank">voguepay Merchant Product</a></li>
+				
+				<li>you will therefore need copy the generated product code from voguepay to this plugin</li>
+				
+				<li>This plugin allows merchant enter their voguepay merchant ID</li>
+				
+				<li>This plugin allows buyers select the quantity to purchase if you set it</li>
+				
+				<li>In your article,specify the product code and desired item name within TAG.sample <a href="#" >{pdvoguepay} item="scratch card" | code ="536363782829" {/pdvoguepay}</a> </li>
+    
+				<li>This will be replaced by a buy now button for your pin products </li>
+				<br /> Visit <a href="https://voguepay.com" target="_blank">https://voguepay.com</a> for details.
+			</p>
+			<br/>
+			<br/>
+					 If you like this module please <a href="https://www.facebook.com/voguepay" target="_blank">Leave your Feedback & Like Us on Facebook</a> :)
+					<br/><br/>
+				Thanks!
+				<br />
+	VoguePay
+	]]>Voguepay pin dispenser plugin for Joomla by Voguepay</description>
+	
+	<files>
+		<filename plugin="pd_voguepay">pd_voguepay.php</filename>
+		<filename>index.html</filename>
+		
+	</files>
+	
+	
+    
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="merchant_id" type="text" default="" label="Your Voguepay Merchant ID" description="Login to your voguepay account on https://voguepay.com to get your merchant id." />
+
+					
+					<field name="quantity_1" type="list" default="0" label="Allow buyers to select quantity" >
+						<option value="0">No.</option> 
+						<option value="1">Yes. Buyer can change quantity.</option> 
+					</field>	
+						
+					<field name="button_color" type="list" default="blue" label="Button color" description="Select the colour of button on the SMS order module.">
+						<option value="blue">Blue</option>
+						<option value="green">Green</option>
+						<option value="grey">Grey</option>
+						<option value="red">Red</option>
+					</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
