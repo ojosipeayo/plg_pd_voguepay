@@ -16,7 +16,7 @@ defined ( '_JEXEC' ) or die ( 'Restricted' );
 **/ 
  
 jimport ( 'joomla.plugin.plugin' );
-class plgContentPd_VoguePay extends JPlugin { 
+class plgContentPd_VoguePay-master extends JPlugin { 
 	
 	public function onContentAfterDisplay($context,&$article,&$params,$page=0){ 
 		
