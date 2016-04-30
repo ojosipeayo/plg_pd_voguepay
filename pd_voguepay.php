@@ -3,7 +3,7 @@
  * @author Ojosipe Ayomikun
  * @email ojosipeayo@gmail.com
  * @package Pd Compisoft
- * @copyright (C) 2014 - Compisoft
+ * @copyright (C) 2016 - Compisoft
  * @license GNU/GPLv2 http://www.gnu.org/licenses/gpl-2.0.html  
 **/
 
