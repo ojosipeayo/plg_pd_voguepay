@@ -38,7 +38,7 @@
 	]]>Voguepay pin dispenser plugin for Joomla by Voguepay</description>
 	
 	<files>
-		<filename plugin="pd_voguepay">pd_voguepay-master.php</filename>
+		<filename plugin="pd_voguepay">pd_voguepay.php</filename>
 		<filename>index.html</filename>
 		
 	</files>
