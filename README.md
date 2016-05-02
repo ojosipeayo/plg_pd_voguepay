@@ -25,4 +25,10 @@ Usage: Use a shortcode tag in your wordpress page/post to add the button on your
 
 {pdvoguepay} item="scratch card" | code ="536363782829" {/pdvoguepay}
 
+## Pictoral guide ##
+![Installation Note](https://github.com/ojosipeayo/plg_pd_voguepay/blob/master/photo_guide/1_installation.png)
+![Settings](https://github.com/ojosipeayo/plg_pd_voguepay/blob/master/photo_guide/2_plugin_settings.png)
+![article shortcode](https://github.com/ojosipeayo/plg_pd_voguepay/blob/master/photo_guide/3_shortcode_in_articles.png)
+![button output](https://github.com/ojosipeayo/plg_pd_voguepay/blob/master/photo_guide/4_front_end.png)
+
 
